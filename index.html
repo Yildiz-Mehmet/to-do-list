@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>
+        Happy Days
+        <i id="kumDate" class="fa-sharp fa-solid fa-hourglass-start"></i>
+      </h1>
+
+      <form id="new-task-form">
+        <input type="text" id="new-task-input" placeholder="Add item..." />
+        <input type="submit" id="new-task-submit" value="Add task" />
+      </form>
+    </header>
+    <main>
+      <section class="task-list">
+        <h2>Tasks</h2>
+        <div id="tasks">
+          <!-- <div class="task">
+            <div class="content">
+              <input type="text" class="text" value="My shink task" readonly />
+            </div>
+            <div class="actions">
+              <button class="edit">Edit</button>
+              <button class="delete">Delete</button>
+            </div>
+          </div> -->
+        </div>
+      </section>
+      <h2>
+        <span id="first">0</span> OUT OF <span id="second">0</span> TASKS
+        COMPLETED
+      </h2>
+      <button id="btn">New A Day</button>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
